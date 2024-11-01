@@ -3,18 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hirwatan <hirwatan@student.42tokyo.jp>     +#+  +:+       +#+        */
+/*   By: loremipsum <loremipsum@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/22 14:57:10 by hirwatan          #+#    #+#             */
-/*   Updated: 2024/10/31 19:47:36 by hirwatan         ###   ########.fr       */
+/*   Updated: 2024/11/01 01:54:19 by loremipsum       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <limits.h>
 #include <stdlib.h>
 
-// atoi is string number to int number
-
+//ascii to int : ovr undefind
 int	over_flow(int m_flag, long l, char next)
 {
 	if (m_flag == 1)
